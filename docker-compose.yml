@@ -19,6 +19,7 @@ services:
   scale:
     image: bh.cr/olamide_omolola/scales
     restart: always
+    privileged: true
     labels:
       io.balena.features.kernel-modules: '1'
       io.balena.features.sysfs: '1'
