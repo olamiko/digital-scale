@@ -17,7 +17,7 @@ services:
     ports:
         - '80'
   scale:
-    image: balenablocks/scale
+    image: bh.cr/olamide_omolola/scales
     restart: always
     labels:
       io.balena.features.kernel-modules: '1'
