@@ -24,8 +24,8 @@ services:
       io.balena.features.kernel-modules: '1'
       io.balena.features.sysfs: '1'
       io.balena.features.supervisor-api: '1'
-    #environment:
-    #  - CALIBRATION_VALUE: ''
+    #environment: # You can set the calibrated value of the load cell here or on the dashboard
+    #  - CALIBRATION_VALUE=-254.1
     #expose:
     #  - '7575'
   connector:
